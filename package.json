@@ -1,0 +1,25 @@
+{
+  "name": "pluralsight.geospatial.mapping",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Geospatial Mapping of Australia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geospatial",
+    "mapping",
+    "australia"
+  ],
+  "author": "savras",
+  "license": "ISC",
+  "dependencies": {
+    "topojson": "1"
+    }
+}
+
+
+
+
+
