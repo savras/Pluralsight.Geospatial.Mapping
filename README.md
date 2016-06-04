@@ -8,5 +8,7 @@ Geospatial mapping tutorial from Pluralsight for Australia
 
 # Useful commands
 Convert Shapefile to GeoJSON: ogr2ogr -f GeoJSON districts.json resources/STE11aAust.shp
-If the above doesn't work, go here: https://ogre.adc4gis.com/. 
-The above works for me. Extract all contents of the ESRI Shape file to the same folder for ogr2ogr to process.
+The above works for me. Extract all contents of the ESRI Shape file to the same folder for ogr2ogr to process. Start ogr2ogr from the installation folder
+F:\Program Files\GDAL\bin\gdal. 
+Add the location F:\Program Files\GDAL\bin\; to the System Path environment variable. 
+If it doesn't work, go here: http://www.mapshaper.org/. 
